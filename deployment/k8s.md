@@ -9,7 +9,7 @@ By default, `kubectl get pods` list all pods in the default namespace. Which is 
 #### Creating a namespace
 Create a namspace in order to instantiate services in it later
 ```shell
-kubectl create namespace <NAME>
+kubectl create namespace <namespace>
 ```
 
 #### Listing all namespaces
