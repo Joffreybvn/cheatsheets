@@ -6,6 +6,12 @@ By default, `kubectl get pods` list all pods in the default namespace. Which is 
 
 - To get detailed infos, add `-o wide` to the command's parameters
 
+#### Creating a namespace
+Create a namspace in order to instantiate services in it later
+```shell
+kubectl create namespace <NAME>
+```
+
 #### Listing all namespaces
 List all kubernetes namespaces
 ```shell
