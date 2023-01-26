@@ -35,3 +35,10 @@ kubectl get pods -n <namespace>
 ```shell
 kubectl get configmaps -n <namespace>
 ```
+
+# Examples:
+
+Openshift: Remove all resources with specific name:
+```shell
+ oc get services -oname | grep "sidecar" | xargs oc delete
+```
